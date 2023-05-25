@@ -1,15 +1,11 @@
-# javascript-ray-casting
+# Ray Casting
 
-**javascript-ray-casting** is a [Ray Casting] engine built using [p5.js] to render all the graphics. It attempts to simulate a pseudo 3D environment from a 2D map
+[Source: Aruvham]
+
+This is a [Ray Casting] engine built using [p5.js] to render all the graphics. It attempts to simulate a pseudo 3D environment from a 2D map
 
 This technique was very popular in game development in the 90s, when computer could not simulate a fully 3D environment in real time. Ray casting can go very fast, because only a calculation has to be done for every vertical line of the screen. Some of the most well known games that used this technique, are of course [Wolfenstein 3D] and [DOOM].
 
-* [Try the app now]
-
-For a more in depth explanation of the calculations involved, I recommend the following awesome tutorials:
-
-* [Lode's Computer Graphics Tutorial: Raycasting] by Lode Vandevenne
-* [Ray-Casting Tutorial For Game Development And Other Purposes] by F. Permadi
 
 <h3 align="center">
   <img src="https://dl.dropboxusercontent.com/s/1bos25bvc4xbuhj/ray_01.png?dl=0" alt="d3-mini-game gameplay screenshot" />
@@ -26,6 +22,7 @@ For a more in depth explanation of the calculations involved, I recommend the fo
 <!---
 Link References
 -->
+[Source: Aruvham]:https://github.com/aruvham/javascript-ray-casting
 [Ray Casting]:https://en.wikipedia.org/wiki/Ray_casting
 [p5.js]:https://p5js.org/
 [Wolfenstein 3D]:https://en.wikipedia.org/wiki/Wolfenstein_3D
