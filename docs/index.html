@@ -2,19 +2,70 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ray Casting</title>
+        <title>Volume Ray Casting</title>
         <script src="./libs/p5.min.js" type="text/javascript"></script>
         <script src="sketch.js"></script>
     </head>
-    <body></body>
+    <body>
+      <h1>VOLUME RAY CASTING</h1>
+      <section>
+        <h2>HOW THIS WAS RAN</h2>
+        <h3>Locally</h3>
+        <p>First, I had to clone the GitHub repository to my computer using: </p>
+          
+          <p><i>git clone https://github.com/aruvham/javascript-ray-casting.git</i></p>
+
+
+        <p>Next, the project was based on express.js which a node.js framework. So I had to install node.js on my computer and run the commands below on my command line to start the project.</p>
+
+        <p><i>cd javascript-ray-casting</i><br/><i>node index.js</i></p>
+
+        <p>Now, this starts the a server for the project on Localhost port 3000. <br>So I had to visit <i>http://localhost:3000 </i> in my browser to see the output of the project.</p>
+
+        
+        <h3>Remotely On This Page</h3>
+        <p>With the project based on the P5.js library, the ray casting work was implemented using using JavaScript. The resulting JavaScript code was then injected into the body of the and index.html file, which enables the project to run perfectly in any JavaScript supported browser.</p>
+      </section>
+      
+    <section>
+      <h2>INTERACTING WITH THE WORK</h2>
+      <p>Using the arrow keys, you can interact with the project to move the source of the ray around and change the direction of the cast rays. </p>
+      <ul>
+        <li>
+          The Left & Right arrows change the direction of the cast rays.
+        </li>
+        <li>
+          The Top & Down arrows move the source of the rays forward and backwards.
+        </li>
+      </ul>
+    </section>
+        
+      
+    </body>
     <style>
       html { height: 100%; }
       body {
-        height: 100%;
         background-color: #0C0C0C;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-right: 5%;
+        padding-left: 5%;
+        color: #eee;
+        font-family: lato
+      }
+      section {
+        width: 80%;
+        background-color: #151515;
+        padding: 10px;
+        padding-right: 5%;
+        padding-left: 5%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+      h1 {
+        color: #eee
       }
     </style>
 </html>
